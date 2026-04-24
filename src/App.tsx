@@ -123,7 +123,7 @@ const votingMethods = [
   {
     id: 'election-day',
     title: 'Election Day In-Person',
-    timeframe: 'November 5th',
+    timeframe: 'November 2nd',
     icon: Vote,
     color: 'bg-emerald-600',
     description: 'Vote traditionally at your assigned local polling place on the official Election Day. Polls are typically open from early morning until evening.',
@@ -182,7 +182,7 @@ export default function App() {
           <div className="w-8 h-8 bg-indigo-600 flex items-center justify-center rounded-sm">
             <div className="w-4 h-4 border-2 border-white rotate-45"></div>
           </div>
-          <span className="font-bold tracking-tight text-lg uppercase">CivicNav 2024</span>
+          <span className="font-bold tracking-tight text-lg uppercase">CivicNav 2027</span>
         </div>
         <div className="hidden md:flex gap-8 text-sm font-medium text-slate-500">
           <button 
@@ -270,7 +270,7 @@ export default function App() {
           
           <div className="hidden lg:block mt-8 bg-slate-50 p-4 rounded-sm border border-slate-200">
             <p className="text-xs font-semibold text-slate-400 uppercase">Election Year</p>
-            <p className="text-3xl font-black text-indigo-600">2024</p>
+            <p className="text-3xl font-black text-indigo-600">2027</p>
           </div>
         </aside>
 
@@ -371,7 +371,7 @@ export default function App() {
       {/* Footer */}
       <footer className="h-12 bg-white border-t border-slate-200 px-4 md:px-8 flex items-center justify-between shrink-0">
         <p className="text-[10px] text-slate-400 uppercase tracking-widest">
-          © 2024 Civic Assistant Tool • Non-Partisan Resource
+          © 2027 Civic Assistant Tool • Non-Partisan Resource
         </p>
         <div className="hidden md:flex gap-4">
           <div className="w-2 h-2 rounded-full bg-slate-300"></div>
