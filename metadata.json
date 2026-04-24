@@ -1,0 +1,6 @@
+{
+  "name": "US Election Guide",
+  "description": "An interactive guide explaining the US election process, timelines, and providing official voter resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
